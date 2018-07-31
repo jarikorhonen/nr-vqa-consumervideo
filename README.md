@@ -1,4 +1,3 @@
-# nr-vqa-consumervideo
 # Hierarchical Video Quality Model (HiViQuM)
 
 This work implements No-Reference Video Quality Model (NR-VQM) intended specially for assessing consumer video quality, 
