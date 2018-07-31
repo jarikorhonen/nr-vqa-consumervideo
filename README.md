@@ -6,9 +6,10 @@ This work implements No-Reference Video Quality Model (NR-VQM) intended speciall
 impaired typically by capture artifacts, such as sensor noise, motion blur and camera shakiness. Most of the NR-VQMs known
 in the prior art have been designed and optimized for compression and transmission artifacts, and therefore they are not
 optimal for consumer video. Another problem with many of the known NR-VQMs is their high complexity, which limits their use
-in practical consumer applications.
+in practical consumer applications. The aim of the proposed model is to predict subjective video quality as accurately as
+possible, even in the presence of capture artifacts, with a reasonable computational complexity.
 
-More information about the proposed model is available in the publication (under review).
+More information about the proposed model is available in the [publication](https://github.com/jarikorhonen/nr-vqa-consumervideo/blob/master/TIP_hiviqum_github.pdf) (under review).
 
 The workflow for using the software consists of two parts: 1) Feature extraction, and 2) Learning-based regression. The
 implementation of feature extraction is in the source file _compute_nrvqa_features.m_ (Matlab). An example showing how to
