@@ -11,7 +11,8 @@ More information about the proposed model is available in the publication (under
 
 The workflow for using the software consists of two parts: 1) Feature extraction, and 2) Learning-based regression. The
 implementation of feature extraction is in the source file _compute_nrvqa_features.m_ (Matlab). An example showing how to
-extract the features for videos from KoNViD-1k database and write them in a comma separated value (CSV) file is in
-_compute_features_example.m_. For using the example, you need to download the KoNViD-1k video sequences and the MOS scores
-from there, and decode the video sequences in raw YUV format. An example in _train_and_validate_KoNViD.py_ file shows how
-the regression model for predicting the MOS values from the features can be trained and validated.
+extract the features for videos from LIVE-Qualcomm database and write them in a comma separated value (CSV) file is in
+_compute_features_example.m_. For using the example, you need to download the LIVE-Qualcomm video sequences and the related
+MOS scores from [there](http://live.ece.utexas.edu/research/incaptureDatabase/index.html), and decode the video sequences 
+in raw YUV format. An example in _train_and_validate_example.py_ file shows how the regression model for predicting the 
+MOS values from the features can be trained and validated.
