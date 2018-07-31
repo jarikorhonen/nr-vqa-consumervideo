@@ -1,5 +1,7 @@
 # Hierarchical Video Quality Model (HiViQuM)
 
+![HiViQuM diagram](https://github.com/jarikorhonen/nr-vqa-consumervideo/blob/master/hiviqum.png)
+
 This work implements No-Reference Video Quality Model (NR-VQM) intended specially for assessing consumer video quality, 
 impaired typically by capture artifacts, such as sensor noise, motion blur and camera shakiness. Most of the NR-VQMs known
 in the prior art have been designed and optimized for compression and transmission artifacts, and therefore they are not
