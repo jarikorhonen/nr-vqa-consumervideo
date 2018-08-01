@@ -17,4 +17,4 @@ extract the features for videos from LIVE-Qualcomm database and write them in a 
 *compute_features_example.m*. For using the example, you need to download the LIVE-Qualcomm video sequences and the related
 MOS scores from [there](http://live.ece.utexas.edu/research/incaptureDatabase/index.html), and decode the video sequences 
 in raw YUV format. An example in *train_and_validate_example.py* file shows how the regression model for predicting the 
-MOS values from the features can be trained and validated.
+MOS values from the features can be trained and validated (this part is in Python, using scikit-learn toolbox for regression).
