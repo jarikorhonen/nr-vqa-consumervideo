@@ -1,4 +1,4 @@
-# Hierarchical Video Quality Model (HiViQuM)
+# Two Level Quality Model (HiViQuM)
 
 ![HiViQuM diagram](https://github.com/jarikorhonen/nr-vqa-consumervideo/blob/master/hiviqum.png)
 
@@ -9,7 +9,7 @@ optimal for consumer video. Another problem with many of the known NR-VQMs is th
 in practical consumer applications. The aim of the proposed model is to predict subjective video quality as accurately as
 possible, even in the presence of capture artifacts, with a reasonable computational complexity.
 
-More information about the proposed model is available in the [publication](https://github.com/jarikorhonen/nr-vqa-consumervideo/blob/master/TIP_hiviqum_github.pdf) (under review).
+More information about the proposed model will available in the related paper (accepted for publication in IEEE Transactions on Image Processing).
 
 The workflow for using the software consists of two parts: 1) Feature extraction, and 2) Learning-based regression. The
 implementation of feature extraction is in the source file _compute_nrvqa_features.m_ (Matlab). An example showing how to
