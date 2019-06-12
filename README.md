@@ -1,4 +1,4 @@
-# Two Level Quality Model (TLVQM)
+# Two Level Video Quality Model (TLVQM)
 
 ![HiViQuM diagram](https://github.com/jarikorhonen/nr-vqa-consumervideo/blob/master/hiviqum.png)
 
