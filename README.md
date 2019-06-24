@@ -9,7 +9,7 @@ optimal for consumer video. Another problem with many of the known NR-VQMs is th
 in practical consumer applications. The aim of the proposed model is to predict subjective video quality as accurately as
 possible, even in the presence of capture artifacts, with a reasonable computational complexity.
 
-More information about the proposed model will available in the related paper (accepted for publication in IEEE Transactions on Image Processing).
+More information about the proposed model will available in the related paper (Early Access version available [here](https://ieeexplore.ieee.org/document/8742797)).
 
 The workflow for using the software consists of two parts: 1) Feature extraction, and 2) Learning-based regression. The
 implementation of feature extraction is in the source file _compute_nrvqa_features.m_ (Matlab). An example showing how to
