@@ -89,8 +89,8 @@ function all_features = compute_nrvqa_features(test_video, reso, blk_len)
                       
             % Compute onsistency features
             blr_si_corr = 0;
-            if std(LC_features_all(i_start:i_end,12))>0 && ...
-               std(LC_features_all(i_start:i_end,2))>0
+            if std(LC_features_all(i_start:i_end,1))>0 && ...
+               std(LC_features_all(i_start:i_end,11))>0
                 blr_si_corr = corr(LC_features_all(i_start:i_end,1),...
                                    LC_features_all(i_start:i_end,11));
             end
